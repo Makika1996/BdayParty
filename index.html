@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marija's B-day</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link href="https://fonts.cdnfonts.com/css/bartex" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/7d06f75f5be76c96979e0936770794c2?family=Calendas-Plus" rel="stylesheet">
+</head>
+<body>
+<div class="stars-container">
+    <div class="center-container">
+        <h1 id="first-header" class="other-header" data-text="You're Invited To">You're Invited To</h1>
+        <h1 class="custom-header" data-text="Marija's 27th">Marija's 27th</h1>
+        <h1 class="other-header" data-text="Birthday Party"> Birthday Party</h1>
+
+        <div class="date-text">
+            <p>August <span>5</span> 8:00 PM</p>
+            <p>in Glowing Garten</p>
+            <p>Moersweg 5, Gross-Umstadt</p>
+        </div>
+
+        <div class="rsvp-container">
+            <h2>RSVP</h2>
+            <div class="input-group">
+                <input type="text" id="fullName" class="not-empty" placeholder="Name">
+            </div>
+        </div>
+
+        <div class="button-container">
+            <button onclick="handleButtonClick('yes')" class="rsvp-button">Ready to Party</button>
+            <button onclick="handleButtonClick('maybe')" class="rsvp-button">Think about it</button>
+            <button onclick="handleButtonClick('no')" class="rsvp-button">Can't make it</button>
+        </div>
+
+        <button class="show-list-button" onclick="showList()"></button>
+    </div>
+</div>
+
+<script src="js/functions.js"></script>
+</body>
+</html>
